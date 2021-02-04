@@ -1,0 +1,97 @@
+nav {
+    height: 1px;
+    background-color: white;
+}
+.logo {
+    float: left;
+    margin-left: 94px;
+    margin-top: 23px;
+    height: 143px;
+    margin-bottom: 25px;
+}
+ul {
+    margin-right: 62px;
+    float: right;
+
+}
+.inline-block {
+    display: inline-block;
+    padding: 31px;
+    background-color: white;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom:102px; 
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.active {
+    text-decoration: underline #480080 4px;
+    text-underline-offset: 5px;
+    text-underline-position: under;
+}
+.HeroText {
+    margin-top: 296px;
+    font-size: 48px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 157px;
+    font-weight: lighter;
+}
+.Paragraph {
+    position: absolute;
+    top: 378px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+}
+.CaseStudiesThumbnail {
+    display: flex;
+    justify-content: center;
+}
+.Row1 {
+    margin-top: 223px;
+}
+.Box1 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/PACT.png);
+    margin: 15px;
+}
+.Box2 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/CSA.png);
+    margin: 15px;
+}
+.Box3 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/SIP.png);
+    margin: 15px;
+}
+.Box4 {
+    height: 540px;
+    width: 540px;
+    background-image: url(../images/Sonder.png);
+    margin: 15px;
+}
+.footer {
+   display: flex;
+   height: 103px;
+   background-color: #200039;
+   align-items: center;
+   width: 100vw;
+}
+.footerLeft {
+    color: white;
+    margin-left: 77px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    float: left;
+}
+.footerRight {
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    float: right;
+    margin-right: 77px;
+}
