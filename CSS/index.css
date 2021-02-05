@@ -29,12 +29,15 @@ ul {
     text-underline-offset: 5px;
     text-underline-position: under;
 }
+.inactive {
+    cursor: pointer;
+}
 .HeroText {
     margin-top: 296px;
     font-size: 48px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 157px;
     font-weight: lighter;
+    margin-left: 100px;
 }
 .Paragraph {
     position: absolute;
@@ -42,6 +45,7 @@ ul {
     font-size: 24px;
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
+    margin-right: 100px;
 }
 .CaseStudiesThumbnail {
     display: flex;
@@ -74,24 +78,26 @@ ul {
     background-image: url(../images/Sonder.png);
     margin: 15px;
 }
+
 .footer {
-   display: flex;
-   height: 103px;
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
    background-color: #200039;
-   align-items: center;
-   width: 100vw;
+   width: 100%;
+   color: white;
+   font-size: 24px;
+   font-family: 'Roboto Mono', monospace;
 }
 .footerLeft {
-    color: white;
-    margin-left: 77px;
-    font-size: 24px;
-    font-family: 'Roboto Mono', monospace;
     float: left;
+    margin-left: 77px;
+    cursor: pointer;
 }
+
 .footerRight {
-    color: white;
-    font-size: 24px;
-    font-family: 'Roboto Mono', monospace;
     float: right;
     margin-right: 77px;
+    cursor: pointer;
+    text-align: right;
 }
